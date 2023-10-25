@@ -1,4 +1,4 @@
-export {/*
+export {
 
 import { useLocalStorageState } from './utils';
 import { Account, AccountInfo, Connection, ConnectionConfig, PublicKey } from '@solana/web3.js';
@@ -203,4 +203,4 @@ export function useAccountData(publicKey) {
   return accountInfo && accountInfo.data;
 }
 
-*/}
+}
